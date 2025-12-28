@@ -42,7 +42,7 @@ Mixed numerical and categorical system attributes, Target Variable: Binary class
 
 Data Preprocessing and Feature Engineering: Handling missing values using SimpleImputer; Encoding categorical variables for model compatibility; Feature scaling for stable gradient-based optimization; Ensuring clean and consistent input data for training
 
-Models Used:SGDClassifier (Stochastic Gradient Descent);
+Models Used:SGDClassifier (Stochastic Gradient Descent); LightGBM (Gradient Boosting Machine); Naive Bayes
 
 Hyperparameter optimization: Performed using GridSearchCV; Regularization techniques applied to improve generalization
 
