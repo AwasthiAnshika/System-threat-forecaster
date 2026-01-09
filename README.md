@@ -12,19 +12,19 @@ Significance of using ML: Pattern recognition at scale, Automated and consistent
 **Machine Learning Pipeline**
 
 Raw System Data (CSV)
-↓
+->
 Data Cleaning and Imputation
-↓
+->
 Feature Encoding and Scaling
-↓
+->
 Train-Test Split
-↓
+->
 SGD Classifier Training
-↓
+->
 Hyperparameter Tuning using GridSearchCV
-↓
+->
 Model Evaluation
-↓
+->
 Threat Prediction
 
 **Features:**
