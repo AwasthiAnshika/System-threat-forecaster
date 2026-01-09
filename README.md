@@ -30,14 +30,19 @@ Threat Prediction
 **Features:**
 Mixed numerical and categorical system attributes, Target Variable: Binary classification- 0 indicates no threat and 1 indicates system at risk. The dataset is high-dimensional and requires efficient preprocessing and scalable models.
 
-**Tech Stack:** Programming Language: Python; Data Handling: Pandas, NumPy; Machine Learning: Scikit-learn; Visualization: Matplotlib; Environment: Jupyter Notebook, Kaggle
-**Data Preprocessing and Feature Engineering**: Handling missing values using SimpleImputer; Encoding categorical variables for model compatibility; Feature scaling for stable gradient-based optimization; Ensuring clean and consistent input data for training
-**Models Used**:SGDClassifier (Stochastic Gradient Descent); LightGBM (Gradient Boosting Machine); Naive Bayes
-**Hyperparameter optimization**: Performed using GridSearchCV; Regularization techniques applied to improve generalization
-**Model Training and Evaluation:** Train-test split ensures unbiased evaluation; 
-**Loss function:** log loss or hinge loss
-**Optimizer:** stochastic gradient descent
-**Evaluation metric:** accuracy
+**Tech Stack:** Programming Language: Python; Data Handling: Pandas, NumPy; Machine Learning: Scikit-learn; Visualization: Matplotlib; Environment: Jupyter Notebook, Kaggle.
+
+**Data Preprocessing and Feature Engineering**: Handling missing values using SimpleImputer; Encoding categorical variables for model compatibility; Feature scaling for stable gradient-based optimization; Ensuring clean and consistent input data for training.
+
+**Models Used**:SGDClassifier (Stochastic Gradient Descent); LightGBM (Gradient Boosting Machine); Naive Bayes.
+
+**Hyperparameter optimization**: Performed using GridSearchCV; Regularization techniques applied to improve generalization.
+
+**Model Training and Evaluation:** Train-test split ensures unbiased evaluation.
+
+**Loss function:** log loss or hinge loss.
+**Optimizer:** stochastic gradient descent.
+**Evaluation metric:** accuracy.
 
 **Results and Insights**
 1. Linear models can effectively detect system threats when properly tuned.
